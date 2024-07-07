@@ -1,0 +1,24 @@
+.TodoItem{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    border-bottom: 1px solid rgb(240 , 240, 240);
+}
+
+.TodoItem .item{
+    flex:1;
+}
+
+.TodoItem .date{
+    width:40px;
+    font-size: 14px;
+}
+
+.TodoItem button{
+    height: 30px;
+    width: 40px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
